@@ -1,6 +1,6 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Test.Services;
+using Test.Pages;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -35,7 +35,7 @@ namespace Test.Panel
         }
         private void Settings_click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate (typeof(SettingsPage));
+            MainFrame.Navigate(typeof(SettingsPage));
         }
     }
 }
