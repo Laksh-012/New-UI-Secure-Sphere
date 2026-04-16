@@ -1,5 +1,7 @@
 using Microsoft.UI.Xaml;
+using System;
 using Test.Panel;
+using Test.Services;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -12,8 +14,10 @@ namespace Test
         public MainWindow()
         {
             InitializeComponent();
-
             MainFrame.Navigate(typeof(SecurityPage));
+            AppServices.RealTimeProtection.StartMonitoring(
+                Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+            );
         }
 
         private void Performance_click(object sender, RoutedEventArgs e)
@@ -26,5 +30,6 @@ namespace Test
             MainFrame.Navigate(typeof(SecurityPage));
 
         }
+        
     }
 }

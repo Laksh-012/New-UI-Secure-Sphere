@@ -30,9 +30,9 @@
                     <Image Source="/Assets/Performance.png" Width="16" Height="16"/> 
                 </StackPanel>
             </Button>
-
         </StackPanel>
         <Frame x:Name="MainFrame" Grid.Row="1"/>
+        
     </Grid>
     
     

@@ -52,7 +52,6 @@
                 <Button x:Name="DashboardBtn"
                         CornerRadius="10"
                         Content="Dashboard"
-                        
                         Click="Dashboard_click"/>
 
                 <Button x:Name="ProtectionBtn"
@@ -60,15 +59,15 @@
                         Content="Protection"
                         Click="Protection_click"/>
 
-                <Button x:Name="WebSecurityBtn"
+                <!--<Button x:Name="WebSecurityBtn"
                         CornerRadius="10"
                         Content="Web Security"
-                        Click="WebSecurity_click"/>
+                        Click="WebSecurity_click"/>-->
 
-                <Button x:Name="DevicesBtn"
+                <!--<Button x:Name="DevicesBtn"
                         CornerRadius="10"
                         Content="Devices"
-                        Click="Devices_click"/>
+                        Click="Devices_click"/>-->
 
                 <Button x:Name="SettingsBtn"
                         CornerRadius="10"
@@ -77,7 +76,6 @@
 
             </StackPanel>
 
-            <!-- CONTENT FRAME -->
             <Frame x:Name="MainFrame"
                    Grid.Row="1"
                    Margin="10"/>

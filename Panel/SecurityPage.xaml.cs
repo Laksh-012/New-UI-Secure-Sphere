@@ -15,11 +15,10 @@ namespace Test.Panel
         {
             this.InitializeComponent();
             MainFrame.Navigate(typeof(DashboardPage));
-
         }
         private void Dashboard_click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(typeof(DashboardPage));
+            MainFrame.Navigate(typeof(Test.Pages.DashboardPage));
         }
         private void Devices_click(object sender, RoutedEventArgs e)
         {
